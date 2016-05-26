@@ -1,10 +1,10 @@
-require_relative  "convert_to_valid_alias"
+require_relative "valid_alias_converter"
 require "test/unit"
 
-class ConvertToValidAliasTest < Test::Unit::TestCase
+class ValidAliasConverterTest < Test::Unit::TestCase
 
   def test_convert
-    valid_alias_converter = ConvertToValidAlias.new
+    valid_alias_converter = ValidAliasConverter.new
 
     assert_equal(valid_alias_converter.convert("aabc-def-gh"), "aabc-def-gh")
     assert_equal(valid_alias_converter.convert(""), "")
