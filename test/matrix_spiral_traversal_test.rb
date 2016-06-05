@@ -1,4 +1,4 @@
-require_relative "matrix_spiral_traversal"
+require_relative "../src/matrix_spiral_traversal"
 require "test/unit"
 
 class MatrixSpiralTraversalTest < Test::Unit::TestCase

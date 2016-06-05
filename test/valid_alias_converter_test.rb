@@ -1,4 +1,4 @@
-require_relative "valid_alias_converter"
+require_relative "../src/valid_alias_converter"
 require "test/unit"
 
 class ValidAliasConverterTest < Test::Unit::TestCase
